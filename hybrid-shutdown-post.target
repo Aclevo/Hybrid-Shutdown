@@ -1,0 +1,5 @@
+[Unit]
+Description=Isolates System into Hibernate Mode
+Requires=default.target
+After=default.target
+JobTimeoutSec=30

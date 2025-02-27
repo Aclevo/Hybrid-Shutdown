@@ -1,0 +1,8 @@
+[Unit]
+Description=Prepares System for Hybrid Shutdown
+Requires=multi-user.target
+After=multi-user.target
+BindsTo=hybrid-shutdown.target
+AllowIsolate=yes
+JobTimeoutSec=10
+ExecStart=sleep 500

@@ -1,0 +1,10 @@
+[Unit]
+Description=Hybrid Shutdown: Isolates System into Hibernate Mode
+Requires=hybrid-shutdown-pre.target
+BindsTo=hybrid-shutdown-pre.target
+Wants=hibernate.target
+After=hybrid-shutdown-pre.target
+After=hibernate.target
+AllowIsolate=yes
+OnSuccess=hybrid-shutdown-post.target
+JobTimeoutSec=60
