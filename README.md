@@ -1,5 +1,7 @@
 # Hybrid-Shutdown
 
+This project is currently not being worked on. It has been archived.
+
 This software aims to emulate the Windows feature known as Quick Startup by placing the computer in a hibernated state while shutting down userspace.
 
 **__This software should not be used in production!__**
